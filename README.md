@@ -118,6 +118,15 @@ npm install browser-sync eslint lite-server parcel prettier  --save-dev
 npm install http-server -g
 npm install http-server --save-dev
 npm install http-server -D
+
+
+npm install http-server -D
+npm install browser-sync@3.0.4 -D
+npm install eslint -D
+npm install lite-server -D
+npm install parcel -D
+npm install prettier -D
+
 ```
 
 ---
