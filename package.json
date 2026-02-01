@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "html5,css3,js,react,bootstrap5",
+  "main": "template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend/issues"
+  },
+  "homepage": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@popperjs/core": "^2.11.8",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^1.13.4",
+    "bootstrap": "^5.3.8",
+    "browser-sync": "^3.0.4",
+    "counterup2": "^2.0.2",
+    "eslint": "^9.39.2",
+    "gh-pages": "^6.3.0",
+    "jquery": "^4.0.0",
+    "jquery-ui": "^1.14.2",
+    "lite-server": "^2.6.1",
+    "parcel": "^2.16.3",
+    "prettier": "^3.8.1",
+    "sass": "^1.97.3",
+    "sweetalert2": "^11.26.17",
+    "wowjs": "^1.1.3"
+  }
+}
