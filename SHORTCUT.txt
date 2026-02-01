@@ -1,0 +1,3 @@
+Ctrl + d     = Copy-Pasce
+Ctrl + k +c  = Comment
+Shift+Alt+ F = beautify
