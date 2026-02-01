@@ -31,6 +31,7 @@
 [![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=hamitmizrak)](https://wakatime.com/@hamitmizrak)
 
 # Ecodation Full Stack Frontend -
+
 [GitHub Address](https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git)
 
 ---
@@ -59,7 +60,6 @@ git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_
 ```
 
 ---
-
 
 # Proje Hakkında
 
@@ -373,19 +373,7 @@ npm install gh-pages
 
 ---
 
-````
-
----
-
-## Other Keyword
-
-```sh
--
-````
-
----
-
-## Other Keyword
+## HTML5
 
 ```sh
 -
@@ -393,7 +381,7 @@ npm install gh-pages
 
 ---
 
-## Other Keyword
+## CSS3
 
 ```sh
 -
@@ -401,7 +389,7 @@ npm install gh-pages
 
 ---
 
-## Other Keyword
+## BOOTSTRAP5
 
 ```sh
 -
