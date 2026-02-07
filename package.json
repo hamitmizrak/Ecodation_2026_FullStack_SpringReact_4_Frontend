@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend application for Ecodation 2026 Full Stack Spring React 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git"
+  },
+  "keywords": [
+    "Html5",
+    "Css3",
+    "Bootstrap",
+    "JavaScript",
+    "React",
+    "Frontend"
+  ],
+  "author": "Msc Computer Engineer Hamit MIZRAK",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend/issues"
+  },
+  "homepage": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

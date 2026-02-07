@@ -64,7 +64,7 @@ git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_
 # Proje Hakkında
 
 ```sh
-Bu projede kullanıcı kaydı olduğunda js üzerinden localstorage kayıt işlemiş gerçekleşiyor. Ve kullanıcı bu bilgilere göre sisteme giriyor.
+Bu projede html5,css3,bs5,js,es+5, ts teknolojileri ile proje yapılacaktır. 
 ```
 
 ## Linkler
@@ -88,12 +88,20 @@ npm -v
 node -v
 ```
 
+
 ## NPM (PACKAGE.JSON)
 
 ```sh
-npm init -y
-npm init
+$ npm init
+-- VEYA --
+$ npm init -y
 
+$ npm install bootstrap --save
+$ npm i  bootstrap-icons
+
+$ npm i vite --save-dev
+-- VEYA --
+$ npm i -D vite
 ```
 
 ---
