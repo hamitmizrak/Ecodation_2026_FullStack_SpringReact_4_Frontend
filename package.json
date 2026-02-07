@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "Frontend application for Ecodation 2026 Full Stack Spring React 4",
-  "main": "index.js",
+  "main": "assets/js/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

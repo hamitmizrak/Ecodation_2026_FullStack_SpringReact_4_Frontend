@@ -121,8 +121,19 @@ Amaç:  Tarayıcıda hızlı çalışan ve hızlı yenileme yapabilen ve prod i�
     "preview": "vite preview"
   }
 ```
-
 ---
+
+## NPM ile Bootstrap kullanımı (bu projede nasıl yapıldı?)
+
+`assets/js/main.js` dosyasının en üstünde:
+
+```js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+```
+---
+
 
 ## Çalıştırma
 
@@ -142,13 +153,7 @@ Amaç:  Tarayıcıda hızlı çalışan ve hızlı yenileme yapabilen ve prod i�
 
 ---
 
-## Other Keyword
 
-```sh
--
-```
-
----
 
 ## Other Keyword
 
