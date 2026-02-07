@@ -31,56 +31,51 @@
     - BOOTSTRA5: container, d-flex, gap, resonsive
     - JS: Burada JS yok(salt satatik alan)
     -->
-    <div class="topbar d-none44 d-lg-block">
+    <!-- Topbar -->
+    <div class="topbar d-none d-lg-block">
       <div class="container">
-        <div class="topbar-row small py-2">
-          <!-- LEFT -->
-          <div class="d-flex gap-3 align-items-center">
+        <div class="d-flex align-items-center justify-content-between py-2 small">
+          <div class="d-flex gap-4">
             <span>
-              <i class="bi bi-compass me-1"></i>
+              <i class="bi bi-geo-alt me-1"></i>
               Malatya, TR
             </span>
-            <a href="mailto:info@firma.com" class="me-1"><i class="bi bi-envelope"></i></a>
-            <a href="tel:+905555555555" class="me-1"><i class="bi bi-telephone"></i></a>
+            <a class="topbar-link" href="mailto:info@firma.com">
+              <i class="bi bi-envelope me-1"></i>
+              info@firma.com
+            </a>
+            <a class="topbar-link" href="tel:+905555555555">
+              <i class="bi bi-telephone me-1"></i>
+              +90 555 555 55 55
+            </a>
           </div>
+          <div class="d-flex align-items-center gap-3">
+            <form class="topbar-search" role="search" aria-label="Site içinde ara">
+              <div class="input-group input-group-sm">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+              </div>
+            </form>
 
-          <!-- CENTER -->
-          <div class="topbar-center d-flex align-items-center justify-content-center gap-2">
-            <input type="search" id="openSearch" class="chip-lite" aria-label="Search Aç" />
-            <!-- <label for="openSearch" class="mb-0">
-              <i class="bi bi-search"></i> -->
-
-            <!-- SOCIAL MEDIA -->
-            <div class="deneme d-flex align-center gap-2 ">
-              <a href="facebook.com" class="topbar-icon" target="_blank">
-                <i class="bi bi-facebook"></i>
-              </a>
-              <a href="twitter.com" class="topbar-icon" target="_blank">
-                <i class="bi bi-twitter"></i>
-              </a>
-
-              <a href="github.com" class="topbar-icon" target="_blank">
-                <i class="bi bi-github"></i>
-              </a>
-
-              <a href="youtube.com" class="topbar-icon" target="_blank">
-                <i class="bi bi-youtube"></i>
-              </a>
-            </div>
-
-            <div class="d-flex justify-content-end">
-              <a href="#contact" class="btn btn-sm btn-warning btn-outline-warning44">Teklif Al</a>
-            </div>
+            <a class="topbar-icon" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a class="topbar-icon" href="#" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a class="topbar-icon" href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a class="btn btn-sm btn-warning btn-outline-warning44 ms-2" href="#contact">
+              Teklif Al
+            </a>
           </div>
         </div>
-        <!-- topbar-row -->
       </div>
-      <!--end container-->
     </div>
     <!--end topbar-->
     <!-- TOPBAR END -->
-
-    <a href="">Deneme</a>
 
     <!-- End Code -->
     <!-- Bootstrap JavaScript Libraries -->
