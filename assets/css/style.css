@@ -1,0 +1,41 @@
+/* Css Variables (Tema)*/
+
+/* ====== Common === */
+:root {
+  --bg: #0b1220;
+  --surface: rgba(255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.14);
+  --text: #eaf00f;
+  --muted: rgba(234, 240, 255, 0.72);
+  --brand: #6ea8fe;
+  --brand2: #8b5cf6;
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
+  --r: 1rem;
+
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: linear-gradient(180deg, var(--bg), #070c18);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ====== Topbar === */
+.topbar {
+}
