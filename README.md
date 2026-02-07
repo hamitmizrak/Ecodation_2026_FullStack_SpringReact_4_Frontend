@@ -64,7 +64,7 @@ git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_
 # Proje Hakkında
 
 ```sh
-Bu projede html5,css3,bs5,js,es+5, ts teknolojileri ile proje yapılacaktır. 
+Bu projede html5,css3,bs5,js,es+5, ts teknolojileri ile proje yapılacaktır.
 ```
 
 ## Linkler
@@ -88,7 +88,6 @@ npm -v
 node -v
 ```
 
-
 ## NPM (PACKAGE.JSON)
 
 ```sh
@@ -103,6 +102,93 @@ $ npm i vite --save-dev
 -- VEYA --
 $ npm i -D vite
 ```
+
+## Vite
+
+```sh
+- Vite,  modern web projeleri için web geliştirme sunucu(dev server) ile build aracıdır.
+Amaç:  Tarayıcıda hızlı çalışan ve hızlı yenileme yapabilen ve prod için paketleyi sağlamak
+```
+
+---
+
+## package.json scripts ekle
+
+```sh
+ "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+```
+
+---
+
+## Çalıştırma
+
+```sh
+ npm install
+ npm run dev
+```
+
+---
+
+## Build
+
+```sh
+ npm run build
+ npm run preview
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
+
+## Other Keyword
+
+```sh
+-
+```
+
+---
 
 ---
 
