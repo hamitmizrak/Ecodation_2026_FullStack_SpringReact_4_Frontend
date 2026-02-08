@@ -2,13 +2,13 @@
 /*
 Project Name: SPA
  - Author: Hamit Mizrak
- - GitHub: https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_4/blog/main/index.html
+ - GitHub: https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git
  - Date: 2026
  - Description: This is a single-page application (SPA) project that includes various features such as user registration, login, and more. It is built using HTML, CSS, and JavaScript.
  - Technologies: HTML, CSS, JavaScript, Bootstrap, Font Awesome
     - License: MIT License
     - Version: 1.0.0
-    - Last Updated: 2025-11-22
+    - Last Updated: 2026-01-10
     - Features:
       - User registration and login functionality
       - Responsive design using Bootstrap
@@ -20,7 +20,7 @@ Project Name: SPA
       - Git integration for version control
     - Usage: Clone the repository and open index.html in a web browser to view the application.
     - Installation:
-      1. Clone the repository: `git clone https://github.com/hamitmizrak/2025_Ecodation_Frontend2`
+      1. Clone the repository: `git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git`
         2. Open `index.html` in a web browser.
     - Contributing: Contributions are welcome! Please open an issue or submit a pull request on GitHub.
     - Contact: For any questions or issues, please contact Hamit Mizrak at hamitmizrak@gmail.com
@@ -29,6 +29,7 @@ Project Name: SPA
 /* ====== Common === */
 :root {
   --bg: #0b1220;
+  --bg: #ffffff;
   --bg2: #0f1a31;
   --text: #eaf0ff;
   --muted: rgba(234, 240, 255, 0.72);
@@ -50,6 +51,7 @@ Project Name: SPA
   --info-color: #17a2b8;
   --light-color: #f8f9fa;
   --dark-color: #343a40;
+  --customise-font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* ~~~~  COMMON PROPERTIES   ~~~~ */
@@ -66,14 +68,6 @@ html {
 }
 
 body {
-  font-family:
-    'Inter',
-    system-ui,
-    -apple-system,
-    Segoe UI,
-    Roboto,
-    Arial,
-    sans-serif;
   background:
     radial-gradient(1200px 600px at 20% -10%, rgba(110, 168, 254, 0.35), transparent 60%),
     radial-gradient(1200px 600px at 90% 10%, rgba(139, 92, 246, 0.28), transparent 55%),
@@ -166,4 +160,47 @@ a:hover {
 
 /* ====== Topbar === */
 .topbar {
+  background-color: rgba(255, 255, 255, 0.08); /* Yarı saydam bir arka plan rengi */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14); /* Alt çizgi ekler */
+  backdrop-filter: blur(0.7rem); /* Arka planı bulanıklaştırır */
+  -webkit-backdrop-filter: blur(0.7rem); /* Safari için */
 }
+
+body.theme-light .topbar {
+  background-color: rgba(255, 255, 255, 0.7); /* Yarı saydam bir arka plan rengi */
+  border-bottom: 1px solid rgba(13, 20, 38, 0.08); /* Alt çizgi ekler */
+}
+
+/* Dark topbar-link */
+.topbar-link {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.topbar-link:hover {
+  opacity: 0.9;
+}
+
+/* Light */
+body.theme-light .topbar-link {
+  color: rgba(13, 20, 38, 0.85);
+}
+
+/* Dark */
+.topbar-icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.topbar-icon:hover {
+  opacity: 0.9;
+  background-color: rgba(138, 241, 4, 0.18);
+  cursor: pointer;
+}
+
+body.theme-light .topbar-icon {
+  color: rgba(13, 20, 38, 0.85);
+}
+
+
+
+/* ====== FOOTER === */
+brand-mark

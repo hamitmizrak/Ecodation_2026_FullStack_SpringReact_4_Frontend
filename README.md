@@ -76,6 +76,7 @@ https://github.com/signup
 https://git-scm.com/install/windows
 https://www.w3schools.com/html/
 https://docs.emmet.io/cheat-sheet/
+https://cssgradient.io/
 ```
 
 ---
@@ -121,6 +122,7 @@ Amaç:  Tarayıcıda hızlı çalışan ve hızlı yenileme yapabilen ve prod i�
     "preview": "vite preview"
   }
 ```
+
 ---
 
 ## NPM ile Bootstrap kullanımı (bu projede nasıl yapıldı?)
@@ -132,8 +134,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 ```
----
 
+---
 
 ## Çalıştırma
 
@@ -152,8 +154,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 ```
 
 ---
-
-
 
 ## Other Keyword
 
