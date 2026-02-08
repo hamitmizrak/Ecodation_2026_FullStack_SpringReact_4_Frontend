@@ -42,6 +42,8 @@ Project Name: SPA
   --surface: #0c1733;
   --radius: 18px;
 
+  --backtotop-color: #fff;
+
   --primary-color: #007bff;
   --secondary-color: #6c757d;
   --success-color: #28a745;
@@ -271,4 +273,31 @@ body.theme-light .header-overlay {
 /* ################################################################################ */
 /* ====== FOOTER === */
 footer {
+}
+
+/* ################################################################################ */
+/* ====== BACKTO TOP === */
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(0.7rem);
+  -webkit-backdrop-filter: blur(0.7rem);
+  color: var(--backtotop-color);
+  display: none44;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 4px 12px 3px rgba(165, 210, 18, 0.92);
+  z-index: 999;
+}
+
+.back-to-top:hover {
+  transform: translateY(-2px);
+  transition: all 1s ease;
+  cursor: pointer;
 }
