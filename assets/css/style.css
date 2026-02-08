@@ -29,7 +29,6 @@ Project Name: SPA
 /* ====== Common === */
 :root {
   --bg: #0b1220;
-  --bg: #ffffff;
   --bg2: #0f1a31;
   --text: #eaf0ff;
   --muted: rgba(234, 240, 255, 0.72);
@@ -56,9 +55,9 @@ Project Name: SPA
 
 /* ~~~~  COMMON PROPERTIES   ~~~~ */
 * {
-  margin: 0; /* Varsayılan dış boşlukları sıfırlar */
+  margin: 0 !important; /* Varsayılan dış boşlukları sıfırlar */
   padding: 0px; /* Varsayılan iç boşlukları sıfırlar */
-  box-sizing: border-box; /* width ve height hesaplamalarına padding ve border'ı dahil eder */
+  box-sizing: border-box !important; /* width ve height hesaplamalarına padding ve border'ı dahil eder */
   font-family: var(--customise-font-family); /* root değişkeninde tanımlı özel fontu uygular */
 }
 
@@ -202,11 +201,7 @@ body.theme-light .topbar-icon {
 }
 
 /* ################################################################################ */
-/* ====== FOOTER === */
-
-footer {
-}
-
+/* ====== brand === */
 .brand-mark {
   width: 2rem;
   height: 2rem;
@@ -216,4 +211,14 @@ footer {
   background: rgba(110, 168, 254, 0.35);
   border: 1px solid rgba(110, 168, 254, 0.35);
   border-radius: 50%;
+}
+
+
+
+
+
+
+/* ################################################################################ */
+/* ====== FOOTER === */
+footer {
 }
