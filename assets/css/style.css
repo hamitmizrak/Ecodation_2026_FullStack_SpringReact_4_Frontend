@@ -218,6 +218,55 @@ body.theme-light .topbar-icon {
 
 /* ################################################################################ */
 /* ====== Header === */
+.header-fullscreen {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header-bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/header1.jpg');
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.02);
+  filter: saturate(1.05) contrast(1.02);
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.35), transparent 60%),
+    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.28), transparent 62%),
+    linear-gradient(
+      180deg,
+      rgba(7, 12, 24, 0.72) 0%,
+      rgba(7, 12, 24, 0.55) 55%,
+      rgba(7, 12, 24, 0.7) 100%
+    );
+}
+
+body.theme-light .header-overlay {
+  background:
+    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.18), transparent 60%),
+    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.14), transparent 62%),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0.35) 55%,
+      rgba(255, 255, 255, 0.65) 100%
+    );
+}
+
+.header-content {
+  z-index: 2;
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
+}
 
 /* ################################################################################ */
 /* ====== FOOTER === */
