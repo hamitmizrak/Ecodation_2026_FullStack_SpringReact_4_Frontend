@@ -204,6 +204,11 @@ body.theme-light .topbar-icon {
 
 /* ################################################################################ */
 /* ====== Navbar === */
+nav {
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
 
 /* ################################################################################ */
 /* ====== brand === */
@@ -216,41 +221,6 @@ body.theme-light .topbar-icon {
   background: rgba(110, 168, 254, 0.35);
   border: 1px solid rgba(110, 168, 254, 0.35);
   border-radius: 50%;
-}
-
-/* ################################################################################ */
-/* ====== Header === */
-.header-fullscreen {
-  position: relative;
-  min-height: 75vh;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
-.header-bg-image {
-  position: absolute;
-  inset: 0;
-  background-image: url('../images/header1.jpg');
-  background-image: url('https://picsum.photos/seed/psfree-fullscreen/2400/1600');
-  background-size: cover;
-  background-position: center;
-  transform: scale(1.02);
-  filter: saturate(1.05) contrast(1.02);
-}
-
-.header-overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.35), transparent 60%),
-    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.28), transparent 62%),
-    linear-gradient(
-      180deg,
-      rgba(7, 12, 24, 0.72) 0%,
-      rgba(7, 12, 24, 0.55) 55%,
-      rgba(7, 12, 24, 0.7) 100%
-    );
 }
 
 /* ===== Topbar search styles (search left of social icons) ===== */
@@ -300,6 +270,41 @@ body.theme-light .header-overlay {
       rgba(255, 255, 255, 0.55) 0%,
       rgba(255, 255, 255, 0.35) 55%,
       rgba(255, 255, 255, 0.65) 100%
+    );
+}
+
+/* ################################################################################ */
+/* ====== Header === */
+.header-fullscreen {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header-bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/header1.jpg');
+  background-image: url('https://picsum.photos/seed/psfree-fullscreen/2400/1600');
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.02);
+  filter: saturate(1.05) contrast(1.02);
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.35), transparent 60%),
+    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.28), transparent 62%),
+    linear-gradient(
+      180deg,
+      rgba(7, 12, 24, 0.72) 0%,
+      rgba(7, 12, 24, 0.55) 55%,
+      rgba(7, 12, 24, 0.7) 100%
     );
 }
 
