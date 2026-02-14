@@ -241,6 +241,12 @@ body.theme-light .topbar-search .form-control::placeholder {
   color: rgba(13, 20, 38, 0.55);
 }
 
+@media (max-width: 1200px) {
+  .topbar-search {
+    width: 190px;
+  }
+}
+
 /* ################################################################################ */
 /* ====== 2- Navbar === */
 nav {
@@ -250,6 +256,8 @@ nav {
 }
 
 /* ################################################################################ */
+/* ====== GENEL ÖZELLİKLER === */
+
 /* ====== brand === */
 .brand-mark {
   width: 2rem;
@@ -262,10 +270,21 @@ nav {
   border-radius: 50%;
 }
 
-@media (max-width: 1200px) {
-  .topbar-search {
-    width: 190px;
-  }
+/* başlık yazısı */
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.8rem;
+  background: rgba(110, 168, 254, 0.55);
+  color: rgba(193, 255, 7, 0.8) !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+  border-radius: 0.5rem;
+}
+.section-kicker:hover {
+  background: rgba(193, 255, 7, 0.8);
+  color: rgba(238, 239, 240, 0.99) !important;
 }
 
 /* ################################################################################ */
@@ -431,11 +450,11 @@ body.theme-light .scroll-down:hover {
 }
 .feature-list li::before {
   font-family: 'bootstrap-icons';
-  content: "\F26A";
+  content: '\F26A';
   position: absolute;
   left: 0;
-  top:0.08rem;
-  color:rgba(242, 250, 1, 0.75)
+  top: 0.08rem;
+  color: rgba(242, 250, 1, 0.75);
 }
 
 /* Light */
