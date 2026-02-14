@@ -160,25 +160,16 @@ a:hover {
 }
 
 /* ################################################################################ */
-/* ====== Topbar === */
-.topbar {
-  background-color: rgba(255, 255, 255, 0.08); /* Yarı saydam bir arka plan rengi */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14); /* Alt çizgi ekler */
-  backdrop-filter: blur(0.7rem); /* Arka planı bulanıklaştırır */
-  -webkit-backdrop-filter: blur(0.7rem); /* Safari için */
-}
+/* ====== 1- Topbar === */
 
-body.theme-light .topbar {
-  background-color: rgba(255, 255, 255, 0.7); /* Yarı saydam bir arka plan rengi */
-  border-bottom: 1px solid rgba(13, 20, 38, 0.08); /* Alt çizgi ekler */
-}
-
-/* Dark topbar-link */
+/* Dark */
 .topbar {
   background: rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
 }
+
+/* Light */
 body.theme-light .topbar {
   background: rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid rgba(13, 20, 38, 0.08);
@@ -200,27 +191,6 @@ body.theme-light .topbar-icon {
 }
 .topbar-icon:hover {
   opacity: 0.9;
-}
-
-/* ################################################################################ */
-/* ====== Navbar === */
-nav {
-  background: rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-}
-
-/* ################################################################################ */
-/* ====== brand === */
-.brand-mark {
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(110, 168, 254, 0.35);
-  border: 1px solid rgba(110, 168, 254, 0.35);
-  border-radius: 50%;
 }
 
 /* ===== Topbar search styles (search left of social icons) ===== */
@@ -255,26 +225,35 @@ body.theme-light .topbar-search .form-control::placeholder {
   color: rgba(13, 20, 38, 0.55);
 }
 
+/* ################################################################################ */
+/* ====== 2- Navbar === */
+nav {
+  background: rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(0.8rem);
+}
+
+/* ################################################################################ */
+/* ====== brand === */
+.brand-mark {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(110, 168, 254, 0.35);
+  border: 1px solid rgba(110, 168, 254, 0.35);
+  border-radius: 50%;
+}
+
 @media (max-width: 1200px) {
   .topbar-search {
     width: 190px;
   }
 }
 
-body.theme-light .header-overlay {
-  background:
-    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.18), transparent 60%),
-    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.14), transparent 62%),
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.55) 0%,
-      rgba(255, 255, 255, 0.35) 55%,
-      rgba(255, 255, 255, 0.65) 100%
-    );
-}
-
 /* ################################################################################ */
-/* ====== Header === */
+/* ======  3- Header === */
 .header-fullscreen {
   position: relative;
   min-height: 75vh;
@@ -294,6 +273,7 @@ body.theme-light .header-overlay {
   filter: saturate(1.05) contrast(1.02);
 }
 
+/* header-overlay Dark */
 .header-overlay {
   position: absolute;
   inset: 0;
@@ -305,6 +285,19 @@ body.theme-light .header-overlay {
       rgba(7, 12, 24, 0.72) 0%,
       rgba(7, 12, 24, 0.55) 55%,
       rgba(7, 12, 24, 0.7) 100%
+    );
+}
+
+/* header-overlay Light */
+body.theme-light .header-overlay {
+  background:
+    radial-gradient(900px 600px at 20% 20%, rgba(110, 168, 254, 0.18), transparent 60%),
+    radial-gradient(900px 600px at 80% 30%, rgba(139, 92, 246, 0.14), transparent 62%),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0.35) 55%,
+      rgba(255, 255, 255, 0.65) 100%
     );
 }
 
@@ -362,6 +355,9 @@ body.theme-light .scroll-down {
 body.theme-light .scroll-down:hover {
   color: rgba(13, 20, 38, 0.95);
 }
+
+/* ################################################################################ */
+/* ====== 4- SERVICE === */
 
 /* ################################################################################ */
 /* ====== FOOTER === */
