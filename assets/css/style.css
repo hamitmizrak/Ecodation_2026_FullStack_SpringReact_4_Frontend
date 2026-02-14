@@ -34,16 +34,17 @@ Project Name: SPA
   --muted: rgba(234, 240, 255, 0.72);
   --card: rgba(255, 255, 255, 0.08);
   --border: rgba(255, 255, 255, 0.14);
-  --shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
+  --shadow: 0 18px 45px rgba(88, 175, 228, 0.32);
   --brand: #6ea8fe;
   --brand2: #9ec5fe;
   --brand3: #8b5cf6;
   --soft: #0b1326;
   --surface: #0c1733;
-  --radius: 18px;
+  --radius: 1rem;
 
   --backtotop-color: #fff;
 
+  --white: #f2f2f2;
   --primary-color: #007bff;
   --secondary-color: #6c757d;
   --success-color: #28a745;
@@ -107,8 +108,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  color: rgb(225, 218, 218) !important;
+h6,
+ul li {
+  color: rgba(225, 218, 218, 1) !important;
+}
+
+ul {
+  list-style: none;
 }
 
 /* ################################################################################ */
@@ -368,6 +374,64 @@ body.theme-light .scroll-down:hover {
 
 /* ################################################################################ */
 /* ====== 4- SERVICE === */
+.section {
+  padding: 5rem 0;
+}
+
+.section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.card-hover {
+  border-radius: var(--radius) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgb(84, 84, 81) !important;
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-0.7rem);
+  box-shadow: var(--shadow);
+}
+
+.icon-badge {
+  width: 3rem !important;
+  height: 3rem !important;
+  display: flex;
+  align-items: center; /* y düzleminde */
+  justify-content: center; /* x düzleminde */
+  border-radius: 1rem;
+  background: rgba(88, 135, 229, 0.78);
+  border: 1px dotted rgba(67, 229, 12, 0.95);
+  color: var(--brand2);
+  font-size: 1.5rem;
+}
+
+.icon-badge:hover {
+  background: rgba(67, 229, 12, 0.95);
+  color: var(--white);
+}
+
+.feature-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.feature-list li{
+  
+}
+
+/* Light */
+body.theme-light .card-hover {
+  background: rgba(221, 215, 215, 0.06) !important;
+  border: 1px solid rgb(13, 20, 38, 0.12) !important;
+}
 
 /* ################################################################################ */
 /* ====== FOOTER === */
