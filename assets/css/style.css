@@ -397,6 +397,12 @@ body.theme-light .scroll-down:hover {
   padding: 5rem 0;
 }
 
+.section-alt {
+  background: rgba(255, 255, 255, 0.18);
+  border-top: 0.5rem solid rgba(232, 112, 112, 0.08);
+  border-bottom: 0.5rem solid rgba(255, 255, 255, 0.06);
+}
+
 .section-head {
   display: flex;
   align-items: flex-end;
@@ -464,6 +470,13 @@ body.theme-light .card-hover {
 }
 
 /* ################################################################################ */
+/* ====== 4- ABOUT === */
+
+.media-card {
+  position: relative;
+}
+
+/* ################################################################################ */
 /* ====== FOOTER === */
 .footer {
   background: rgba(0, 0, 0, 0.25);
@@ -497,7 +510,7 @@ body.theme-light .footer-link {
 #copy_id {
   background: rgba(255, 255, 255, 0.08);
   border-top: 1px solid rgba(255, 255, 255, 0.14);
-  padding: 0.2rem;
+  padding: 0.1rem;
 }
 
 /* ################################################################################ */
