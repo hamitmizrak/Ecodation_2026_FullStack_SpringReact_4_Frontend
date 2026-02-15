@@ -543,6 +543,7 @@ body.theme-light .card-hover {
   position: relative;
   overflow: hidden;
   min-height: 78vh;
+  padding: 5rem 0;
 }
 .visitors-bg {
   position: absolute;
