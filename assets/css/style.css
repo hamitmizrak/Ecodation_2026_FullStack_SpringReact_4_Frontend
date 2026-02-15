@@ -899,6 +899,70 @@ body.theme-light .case-card {
 }
 
 /* ################################################################################ */
+/* ====== 8- PAKETLER (PRICING) ====== */
+/* Dark Theme */
+.price-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.82);
+  padding: 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.featured {
+  border-color: rgba(7, 79, 223, 0.95);
+  box-shadow: var(--shadow);
+  background: linear-gradient(180deg, rgba(110, 168, 254, 0.14), rgba(139, 92, 246, 0.1));
+}
+
+/* Light Theme */
+body.theme-light .price-card {
+  background: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.06);
+}
+
+body.theme-light .featured {
+  border-color: linear-gradient(180deg, rgba(110, 168, 254, 0.14), rgba(139, 92, 246, 0.1));
+  box-shadow: var(--shadow);
+  background: rgba(7, 79, 223, 0.95);
+}
+
+.ribbon {
+  position: absolute;
+  top: -1.1rem;
+  right: -2rem;
+  transform: rotate(35deg);
+  background: linear-gradient(90deg, var(--brand2), var(--brand3));
+  color: #081024;
+  font-weight: 900;
+  padding: 0.3rem 2.5rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.22);
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.currency {
+  font-weight: 900;
+  opacity: 0.9;
+}
+
+.amount {
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.period {
+  font-size: 0.95rem;
+}
+
+/* ################################################################################ */
 
 /* ====== FOOTER === */
 .footer {
