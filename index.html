@@ -36,7 +36,7 @@
      <!-- ============================================= -->
        <!-- 1- TOPBAR Start -->
   <!-- Topbar -->
-  <div class="topbar d-none d-lg-block">
+  <div id="topbar_id" class="d-none d-lg-block">
     <div class="container">
       <div class="d-flex align-items-center justify-content-between py-2 small">
         <div class="d-flex gap-4">
@@ -81,7 +81,8 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
           <li class="nav-item"><a class="nav-link" href="#clients">Müşteriler</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Servisler</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#visitors">Ziyaret</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about_id">Hakkımızda</a></li>
           <li class="nav-item"><a class="nav-link" href="#pricing">Paketler</a></li>
           <li class="nav-item"><a class="nav-link" href="#blogs">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
@@ -146,8 +147,7 @@
 <!-- Main Start -->
      <main>
 
-    <!-- 4- MÜŞTERİLER -->
-    <!-- Clients -->
+    <!-- 4- MÜŞTERİLER Start-->
   <section id="clients" class="client-soft">
     <div class="container">
       <!-- Head -->
@@ -180,9 +180,10 @@
       </div>
     </div>
   </section>
+      <!-- MÜŞTERİLER End-->
 
 
-      <!-- SERVICES Start -->
+      <!-- 5- SERVISLER Start -->
        <section id="services" class="section">
         <div class="container">
           <!-- Head -->
@@ -197,7 +198,6 @@
 
           <!-- header>row -->
            <div class="row mt-2 g-4">
-
             <!-- CARD-1 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="card card-hover h-100">
@@ -306,16 +306,25 @@
                 </div>
               </div>
             </div>
-
            </div> <!-- row end -->
         </div> <!-- container end-->
        </section>
       <!-- SERVICES End -->
 
-<!-- Hero -->
-  <header id="home" class="hero">
-    <div class="hero-bg"></div>
+<!-- 6- ZİYARETLER Start -->
+  <section id="visitors" class="hero">
+    <div class="visitors-bg"></div>
     <div class="container position-relative">
+       <!-- Head -->
+           <div class="section-head">
+         <div class="section-kicker mb-4"> <i class="bi bi-stars me-1"></i>  Ziyaretler</div>
+        <div>
+          <h2 class="h1 fw-bold mb-2">Ziyaretler</h2>
+          <p class="mb-0">Kullanıcı Etkileşimi.</p>
+        </div>
+        <a class="btn btn-outline-primary" href="#contact">Proje Konuşalım</a>
+      </div>
+
       <div class="row align-items-center g-5 py-5">
         <div class="col-lg-6">
           <span class="badge rounded-pill text-bg-light badge-soft mb-3">
@@ -439,15 +448,26 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
+<!-- ZİYARETLER End -->
 
-
-    <!-- About -->
- <section id="about" class="section section-alt">
+<!-- 7- HAKKIMIZDA Start -->
+ <section id="about_id" class="section section-alt">
     <div class="container">
+       <!-- Head -->
+           <div class="section-head">
+         <div class="section-kicker mb-4"> <i class="bi bi-stars me-1"></i>  Hakkımızda</div>
+        <div>
+          <h2 class="h1 fw-bold mb-2">Hakkımızda</h2>
+          <p class="44 mb-0">Biz Kimiz.</p>
+        </div>
+        <a class="btn btn-outline-primary" href="#contact">Proje Konuşalım</a>
+      </div>
+
+      <!-- ROW -->
       <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <div class="section-kicker mb-4"> <i class="bi bi-stars me-1"></i>  Hakkımızda</div>
+        <!-- SOL TARAF -->
+        <div id="about_left_id" class="col-sm-12 col-md-6 col-lg-6">
           <div class="media-card">
             <div class="media-card-bg"></div>
             <div class="media-card-content">
@@ -482,7 +502,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6">
+         <!-- SAĞ TARAF -->
+        <div id="about_right_id" class="col-sm-12 col-md-6 col-lg-6">
           <div class="row g-3">
             <div class="col-12">
               <div class="info-card">
