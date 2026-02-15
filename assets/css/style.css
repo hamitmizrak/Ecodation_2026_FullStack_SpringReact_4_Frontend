@@ -176,11 +176,12 @@ ul {
 }
 
 /* ################################################################################ */
-/* ====== 1- Topbar === */
+/* ====== 1- Topbar ====== */
 
 /* Dark */
 .topbar {
   background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
 }
@@ -248,7 +249,7 @@ body.theme-light .topbar-search .form-control::placeholder {
 }
 
 /* ################################################################################ */
-/* ====== 2- Navbar === */
+/* ====== 2- Navbar ====== */
 nav {
   background: rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -256,42 +257,10 @@ nav {
 }
 
 /* ################################################################################ */
-/* ====== GENEL ÖZELLİKLER === */
-
-/* ====== brand === */
-.brand-mark {
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(110, 168, 254, 0.35);
-  border: 1px solid rgba(110, 168, 254, 0.35);
-  border-radius: 50%;
-}
-
-/* başlık yazısı */
-.section-kicker {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.35rem 0.8rem;
-  background: rgba(110, 168, 254, 0.55);
-  color: rgba(193, 255, 7, 0.8) !important;
-  font-weight: 700;
-  font-size: 0.85rem;
-  margin-bottom: 0.2rem;
-  border-radius: 0.5rem;
-}
-.section-kicker:hover {
-  background: rgba(193, 255, 7, 0.8);
-  color: rgba(238, 239, 240, 0.99) !important;
-}
-
-/* ################################################################################ */
 /* ======  3- Header === */
 .header-fullscreen {
   position: relative;
-  min-height: 75vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -392,6 +361,87 @@ body.theme-light .scroll-down:hover {
 }
 
 /* ################################################################################ */
+/* ====== GENEL ÖZELLİKLER ====== */
+/* başlık yazısı */
+.section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* alt-başlık yazısı */
+.section-kicker {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.8rem;
+  background: rgba(110, 168, 254, 0.55);
+  color: rgba(193, 255, 7, 0.8) !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+  border-radius: 0.5rem;
+}
+.section-kicker:hover {
+  background: rgba(193, 255, 7, 0.8);
+  color: rgba(238, 239, 240, 0.99) !important;
+}
+
+/* ====== brand === */
+.brand-mark {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(110, 168, 254, 0.35);
+  border: 1px solid rgba(110, 168, 254, 0.35);
+  border-radius: 50%;
+}
+
+/* ################################################################################ */
+/* ====== MÜŞTERİLER === */
+/* Müşteriler */
+/* Dark Theme*/
+.client-soft {
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.82);
+  border-top: 0.2rem solid rgba(119, 97, 248, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.client-logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.4rem;
+}
+
+.client-logo {
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.9rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: 700;
+  letter-spacing: 0.001rem;
+}
+
+/* Light Theme*/
+body.theme-light .client-soft {
+  background: rgba(13, 20, 38, 0.03);
+  border-top: 1px solid rgba(13, 20, 38, 0.06);
+  border-bottom: 1px solid rgba(13, 20, 38, 0.06);
+}
+body.theme-light .client-logo {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(13, 20, 38, 0.1);
+  color: rgba(13, 20, 38, 0.8);
+}
+
+/* ################################################################################ */
 /* ====== 4- SERVICE === */
 .section {
   padding: 5rem 0;
@@ -408,12 +458,6 @@ body.theme-light .section-alt {
   border-bottom: 1px solid rgba(13, 20, 38, 0.06);
 }
 
-.section-head {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 1rem;
-}
 .card-hover {
   border-radius: var(--radius) !important;
   background: rgba(255, 255, 255, 0.06) !important;
