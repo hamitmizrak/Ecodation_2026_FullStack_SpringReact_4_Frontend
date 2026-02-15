@@ -119,6 +119,13 @@ ul {
 
 /* ################################################################################ */
 /* ~~~~  LINE CLAMP   ~~~~ */
+.line_clamp_1 {
+  display: -webkit-box; /* Webkit tabanlı tarayıcılarda kutu modelini kullanır */
+  -webkit-box-orient: vertical; /* Kutunun dikey yönlendirilmesini sağlar */
+  -webkit-line-clamp: 1; /* Metni 4 satırla sınırlar */
+  overflow: hidden; /* Taşan metni gizler */
+}
+
 .line_clamp_4 {
   display: -webkit-box; /* Webkit tabanlı tarayıcılarda kutu modelini kullanır */
   -webkit-box-orient: vertical; /* Kutunun dikey yönlendirilmesini sağlar */
