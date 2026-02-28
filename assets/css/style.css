@@ -1054,10 +1054,52 @@ body.theme-light .testimonial {
   border: 1px solid rgba(245, 115, 115, 0.1);
 }
 
-
 /* ################################################################################ */
-/* ====== 11- BLOG ====== */
+/* ====== 11- İLETİŞİM ====== */
 /* Dark Theme */
+
+.contact-card {
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(202, 245, 8, 0.52);
+  margin-bottom: 0.3rem;
+  color: white;
+}
+
+.contact-line {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+.contact-line i {
+  font-size: 1.2rem;
+  color: var(--brand2);
+  margin-top: 0.02rem;
+}
+
+.form-card {
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid rgba(196, 89, 89, 0.32);
+  box-shadow: 0 10px 28px rgba(79, 153, 214, 0.22);
+}
+
+/* Light */
+body.thme-light .contact-card {
+  background: rgba(132, 119, 119, 0.08);
+  border: 1px solid rgba(70, 68, 68, 0.08);
+}
+
+body.thme-light .form-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(131, 98, 98, 0.32);
+  box-shadow: 0 10px 28px rgba(158, 184, 205, 0.22);
+}
 
 /* ################################################################################ */
 /* ====== FOOTER === */
