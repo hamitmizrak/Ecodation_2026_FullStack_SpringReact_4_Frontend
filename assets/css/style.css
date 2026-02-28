@@ -117,6 +117,30 @@ ul {
   list-style: none;
 }
 
+p {
+  font-size: 1rem;
+  text-align: justify;
+  /* letter-spacing: 0.01rem !important; */
+  color: white !important;
+  transition: all 2s;
+}
+
+p:hover {
+  cursor: pointer;
+}
+
+img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+img:hover {
+  box-shadow: 1px 1px 20px 1px rgba(214, 73, 73, 0.92);
+    transform: all 2s;
+}
+
 /* ################################################################################ */
 /* ~~~~  LINE CLAMP   ~~~~ */
 .line_clamp_1 {
@@ -963,7 +987,43 @@ body.theme-light .featured {
 }
 
 /* ################################################################################ */
+/* ====== 9- BLOG ====== */
+/* Dark Theme */
 
+/* #blog_id img {
+  height: 20rem !important;
+} */
+
+.blog-card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0, 6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.2s ease box-shadow 0.2s ease;
+  color: white;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.blog-thumb {
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ################################################################################ */
+/* ====== 10- BLOG ====== */
+/* Dark Theme */
+
+/* ################################################################################ */
+/* ====== 11- BLOG ====== */
+/* Dark Theme */
+
+/* ################################################################################ */
 /* ====== FOOTER === */
 .footer {
   background: rgba(0, 0, 0, 0.25);
