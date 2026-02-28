@@ -1015,8 +1015,45 @@ body.theme-light .featured {
 }
 
 /* ################################################################################ */
-/* ====== 10- BLOG ====== */
+/* ====== 10- REFERANSLAR ====== */
 /* Dark Theme */
+
+#testimonial_id p {
+  color: black !important;
+  margin-top: 1rem;
+}
+
+.testimonial {
+  padding: 4rem 4rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(245, 115, 115, 0.1);
+  border-radius: var(--radius);
+  margin-top: 1rem;
+}
+
+.testimonial-stars i {
+  color: #ffc107;
+}
+
+.avatar-lg {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(110, 168, 254, 0.85), rgba(139, 92, 246, 0.86));
+  color: #070c18;
+  font-weight: 900;
+  border-radius: 0.5rem;
+  box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.82);
+}
+
+/* Ligt */
+body.theme-light .testimonial {
+  background: rgba(148, 136, 136, 0.9);
+  border: 1px solid rgba(245, 115, 115, 0.1);
+}
+
 
 /* ################################################################################ */
 /* ====== 11- BLOG ====== */
