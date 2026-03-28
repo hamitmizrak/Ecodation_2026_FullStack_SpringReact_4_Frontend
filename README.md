@@ -41,6 +41,8 @@
 ## Git Start
 
 ```sh
+npm run dev
+
 git init
 git add .
 git commit -m "initialize"
